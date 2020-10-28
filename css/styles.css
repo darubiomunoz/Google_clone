@@ -35,7 +35,7 @@ body
 }
 .ol_list, .ol_media
 {
-    margin: 0 .75em;
+    margin: 0 .6em;
     list-style: none;
 }
 .list_a
@@ -45,13 +45,12 @@ body
     font-weight: 500;
     text-decoration: none;
 }
-button
+.nav_button
 {
     color: #FFF;
     background-color: #4285F4;
     padding: 10px 10px;
     font-size: 0.9em;
-    border-color: #4285F4;
     border-radius: 5px;
     border-style: none;
 }
@@ -62,7 +61,7 @@ button
 
 .hero_wrapper
 {
-    height: 14em;
+    height: 14.5em;
 }
 .hero
 {
@@ -86,6 +85,97 @@ button
 
 .search-bar_wrapper
 {
-    border: 1px solid red;
+    height: 2.65em;
+}
+.search-bar_container
+{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+}
+input
+{
+    width: 88%;
+    border-radius: 20px;
+    border-width: .01em;
+    border-color: #c9d3e4;
+    border-style: solid;
+}
+
+
+
+
+
+.button_wrapper
+{
     height: 4em;
+}
+.button
+{
+    height: inherit;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.search_button
+{
+    color: #000;
+    background-color: #F2F2F2;
+    padding: 9px 25px;
+    margin: 0 .5em;
+    border-radius: 5px;
+    border-style: none
+}
+
+
+
+
+
+.space_wrapper
+{
+    height: 11em;
+}
+
+
+
+
+
+.footer_wrapper
+{
+    height: 3em;
+    background-color: #F2F2F2;
+}
+.footer
+{
+    height: inherit;
+}
+.footer_flex
+{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+.nav_left, .nav_right
+{
+    height: inherit;
+}
+.left_ol, .right_ol
+{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.left_li, .right_li
+{
+    margin: 0 .5em;
+    list-style: none;
+}
+.left_list_a, .right_list_a
+{
+    color: #000;
+    font-size: .85em;
+    font-weight: 500;
+    text-decoration: none;
 }
