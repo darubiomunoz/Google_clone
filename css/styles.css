@@ -9,8 +9,8 @@ body{
     font-family: 'Roboto', sans-serif
 }
 a{
-    color: #000000;
-    font-weight: 500;
+    color: #5f6368;
+    font-weight: 550;
     text-decoration: none;
     cursor: pointer
 }
@@ -18,7 +18,7 @@ button{
     cursor: pointer
 }
 li{
-    list-style: none;
+    list-style: none
 }
 /*-----Header-----*/
 .header{
@@ -33,10 +33,10 @@ li{
     align-items: center
 }
 .ol_list, .ol_media{
-    margin: 0 .6em;
+    margin: 0 .6em
 }
 .list_a{
-    font-size: .9em;
+    font-size: .9em
 }
 .nav_button{
     color: #FFF;
@@ -55,7 +55,7 @@ li{
     align-items: flex-end
 }
 .hero_container_image{
-    padding-bottom: 1.75em;
+    padding-bottom: 1.75em
 }
 /*Seacrch Bar*/
 .main_search-bar_container{
@@ -66,10 +66,10 @@ li{
     justify-content: center;
     align-items: center;
     border: .01em solid #c9d3e4;
-    border-radius: 20px;
+    border-radius: 20px
 }
 .main_search-bar_container:hover{
-    box-shadow: 0 2px 6px 0 #20212447;
+    box-shadow: 0 2px 6px 0 #20212447
 }
 .search-bar_input{
     width: 92%;
@@ -77,7 +77,7 @@ li{
     padding-left: 10px;
     border-style: none;
     outline: none;
-    font-size: 1.5em;
+    font-size: 1.5em
 }
 /*Search Buttons*/
 .search-button{
@@ -88,57 +88,45 @@ li{
     align-items: flex-end
 }
 section a button{
-    color: #000;
+    color: #5f6368;
+    font-weight: 600;
     background-color: #F2F2F2;
     padding: 9px 25px;
     margin: 0 .5em;
     border-radius: 5px;
     border-style: none
 }
-/*Space*/
-.space{
-    height: 11em;
+section a button:hover{
+    box-shadow: 0 2px 5px #20212447;
+    border: 1px solid #c6c6c6;
+    color:#5f6368
 }
-
-
-
-
-
-.footer_wrapper
-{
+/*-----Footer-----*/
+.footer{
+    width: 100%;
     height: 3em;
-    background-color: #F2F2F2
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: 0;
 }
-.footer
-{
-    height: inherit;
-}
-.footer_flex
-{
+.footer_division{
     height: inherit;
     display: flex;
     justify-content: space-between;
     padding: 0 1em
 }
-.nav_left, .nav_right
-{
-    height: inherit;
-}
-.left_ol, .right_ol
-{
+.left_ol, .right_ol{
     height: inherit;
     display: flex;
     align-items: center
 }
-.left_li, .right_li
-{
+.left_li, .right_li{
     margin: 0 .5em;
     list-style: none
 }
-.left_list_a, .right_list_a
-{
-    color: #000;
+.left_list_a, .right_list_a{
+    color: #5f6368;
     font-size: .85em;
-    font-weight: 500;
+    font-weight: 550;
     text-decoration: none
 }
