@@ -47,67 +47,40 @@ li{
     border-style: none
 }
 /*Hero*/
-.hero_wrapper
-{
+.hero{
     height: 14.5em;
 }
-.hero
-{
-    height: inherit;
-}
-.hero_container
-{
+.hero_container{
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: flex-end
 }
-.hero_container_image
-{
+.hero_container_image{
     padding-bottom: 1.75em;
 }
-
-
-
-
-
-.search-bar_wrapper
-{
+/*Seacrch Bar*/
+.search-bar{
     height: 2.65em;
-}
-.search-bar_container
-{
-    height: inherit;
     display: flex;
     justify-content: center
 }
-input
-{
+input{
     width: 88%;
     border-radius: 20px;
     border-width: .01em;
     border-color: #c9d3e4;
     border-style: solid
 }
-
-
-
-
-
-.button_wrapper
-{
+/*Search Buttons*/
+.search-button{
     height: 4em;
-}
-.button
-{
-    height: inherit;
     padding-bottom: 1em;
     display: flex;
     justify-content: center;
     align-items: flex-end
 }
-.search_button
-{
+section a button{
     color: #000;
     background-color: #F2F2F2;
     padding: 9px 25px;
@@ -115,13 +88,8 @@ input
     border-radius: 5px;
     border-style: none
 }
-
-
-
-
-
-.space_wrapper
-{
+/*Space*/
+.space{
     height: 11em;
 }
 
