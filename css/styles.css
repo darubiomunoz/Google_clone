@@ -58,17 +58,26 @@ li{
     padding-bottom: 1.75em;
 }
 /*Seacrch Bar*/
-.search-bar{
+.main_search-bar_container{
+    margin: 0 auto;
     height: 2.65em;
-    display: flex;
-    justify-content: center
-}
-input{
     width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .01em solid #c9d3e4;
     border-radius: 20px;
-    border-width: .01em;
-    border-color: #c9d3e4;
-    border-style: solid
+}
+.main_search-bar_container:hover{
+    box-shadow: 0 2px 6px 0 #20212447;
+}
+.search-bar_input{
+    width: 92%;
+    height: inherit;
+    padding-left: 10px;
+    border-style: none;
+    outline: none;
+    font-size: 1.5em;
 }
 /*Search Buttons*/
 .search-button{
